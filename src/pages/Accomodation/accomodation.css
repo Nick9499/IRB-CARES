@@ -1,0 +1,62 @@
+.Accomodation {
+    margin: 10%;
+}
+.Accomodation h1 {
+    color: #1888ff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.Accomodation h3 {
+    color: #1888ff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-top: 5%;
+}
+.Accomodation h2 {
+    color: grey;
+    font-weight: bold;
+}
+.Accomodation a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: #1888ff;
+    font-size: 80%;
+}
+
+.Accomodation a:hover {
+    opacity: 0.7;
+}
+.Accomodation p {
+    color: grey;
+    text-align: justify;
+    padding-bottom: 1%;
+}
+.Accomodation li {
+    color: grey;
+    padding-bottom: 2%;
+}
+.Accomodation ul {
+    margin-bottom: 5%;
+}
+.title {
+    font-weight: bold;
+    color: #1888ff;
+    text-align: center;
+}
+.accomodationCard__content {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 5%;
+    margin-left: 15%;
+    margin-bottom: 10%;
+}
+@media screen and (max-width: 800px) {
+    .accomodationCard__content {
+        grid-template-columns: 100%;
+        margin-left: 0;
+        margin-bottom: 80%;
+    }
+}

@@ -1,0 +1,45 @@
+.Job {
+    margin: 10%;
+}
+.Job h1 {
+    color: #1888ff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.Job h3 {
+    color: #1888ff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.Job p {
+    color: grey;
+    text-align: justify;
+    padding-bottom: 1%;
+}
+.Job li {
+    color: grey;
+}
+.Job ul {
+    margin-bottom: 5%;
+}
+.title {
+    font-weight: bold;
+}
+.Card__Container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 100%;
+    gap: 3%;
+    margin-bottom: 5%;
+}
+@media screen and (max-width: 800px) {
+    .Card__Container {
+        grid-template-columns: 100%;
+        margin-bottom: 50%;
+    }
+}
+.icon {
+    color: #1888ff;
+}

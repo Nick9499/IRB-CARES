@@ -1,0 +1,19 @@
+.about_data {
+    margin: 2%;
+}
+.About {
+    margin: 10%;
+}
+.About h1 {
+    margin-bottom: 2%;
+    font-weight: bold;
+    color: #1888ff;
+}
+.about_data p {
+    color: grey;
+}
+@media screen and (min-width: 800px) {
+    .About h2 {
+        margin-bottom: 5%;
+    }
+}

@@ -1,0 +1,66 @@
+.After {
+    margin: 10%;
+}
+.After h1 {
+    color: #1888ff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.After h3 {
+    color: #1888ff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-top: 5%;
+}
+.After h2 {
+    color: grey;
+    font-weight: bold;
+}
+.After a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: #1888ff;
+    font-size: 80%;
+}
+
+.After a:hover {
+    opacity: 0.7;
+}
+.After p {
+    color: grey;
+    text-align: justify;
+    padding-bottom: 1%;
+}
+.After li {
+    color: grey;
+    padding-bottom: 2%;
+}
+.After ul {
+    margin-bottom: 5%;
+}
+.title {
+    font-weight: bold;
+}
+.Card__Container {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+}
+
+@media screen and (max-width: 1200px) {
+    .Card__Container {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Card__Container {
+        flex-direction: column;
+        height: 100%;
+    }
+}

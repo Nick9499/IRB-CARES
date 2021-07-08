@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: roboto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}
+@media screen and (min-width: 800px) {
+    .sidebar {
+        display: none;
+    }
+}
+@media screen and (max-width: 800px) {
+    .navbar-container {
+        display: none;
+    }
+}
+.center {
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+.link {
+    text-decoration: none;
+    margin-left: 40%;
+}
+@media screen and (max-width: 400px) {
+    .link {
+        margin-left: 30%;
+    }
+}

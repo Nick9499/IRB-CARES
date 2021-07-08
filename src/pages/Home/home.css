@@ -1,0 +1,19 @@
+.Home {
+    margin: 5%;
+}
+.home__content {
+    margin: 2%;
+}
+.home__content h2 {
+    margin-top: 5%y;
+    text-align: center;
+    color: #1888ff;
+    font-weight: bold;
+}
+.home__content h3 {
+    color: #1888ff;
+    font-weight: bold;
+}
+.home__content p {
+    color: grey;
+}

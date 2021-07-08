@@ -1,0 +1,60 @@
+.Summer {
+    margin: 10%;
+}
+.Summer h1 {
+    color: #1888ff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+    text-align: center;
+}
+.Summer h3 {
+    color: #1888ff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-top: 5%;
+}
+.Summer h2 {
+    color: #1888ff;
+    font-weight: bold;
+    text-align: center;
+}
+.Summer a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: #1888ff;
+    font-size: 80%;
+}
+
+.Summer a:hover {
+    opacity: 0.7;
+}
+.Summer p {
+    color: grey;
+    text-align: justify;
+    padding-bottom: 1%;
+}
+.Summer li {
+    color: grey;
+    padding-bottom: 2%;
+}
+.Summer ul {
+    margin-bottom: 5%;
+}
+.title {
+    font-weight: bold;
+}
+.SummerCampCard__content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 5%;
+    margin-bottom: 20%;
+}
+@media screen and (max-width: 800px) {
+    .SummerCampCard__content {
+        grid-template-columns: 100%;
+        margin-bottom: 70%;
+    }
+}

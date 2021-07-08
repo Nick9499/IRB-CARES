@@ -1,0 +1,61 @@
+.Baby {
+    margin: 10%;
+}
+.Baby h1 {
+    color: #1888ff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.Baby h3 {
+    color: #1888ff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-top: 5%;
+}
+.Baby h2 {
+    color: #1888ff;
+    font-weight: bold;
+    text-align: center;
+}
+.Baby a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    color: #1888ff;
+    font-size: 80%;
+}
+
+.Baby a:hover {
+    opacity: 0.7;
+}
+.Baby p {
+    color: grey;
+    text-align: justify;
+    padding-bottom: 1%;
+}
+.Baby li {
+    color: grey;
+}
+.Baby ul {
+    margin-bottom: 5%;
+}
+.title {
+    font-weight: bold;
+}
+.babyTurtle__Content {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.babyTurtle__list {
+    display: flex;
+    flex-direction: column;
+    /*   margin-top: 10%; */
+    justify-content: center;
+}
+@media screen and (max-width: 800px) {
+    .babyTurtle__Content {
+        grid-template-columns: 100%;
+    }
+}

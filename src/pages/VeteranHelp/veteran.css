@@ -1,0 +1,21 @@
+.Veteran {
+    margin: 10%;
+}
+.Veteran h1 {
+    color: #1888ff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+}
+.Veteran h3 {
+    color: #1888ff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 2%;
+    margin-top: 5%;
+}
+.Veteran p {
+    color: grey;
+    text-align: justify;
+    padding-bottom: 1%;
+}

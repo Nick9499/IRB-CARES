@@ -1,0 +1,62 @@
+.Life {
+    margin: 10%;
+}
+.Life h1 {
+    color: #1888ff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.Life h3 {
+    color: #1888ff;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 3%;
+    margin-top: 5%;
+}
+.title {
+    font-weight: bold;
+    font-size: 120%;
+    color: #1888ff;
+}
+.Life p {
+    color: grey;
+    text-align: justify;
+    padding-bottom: 1%;
+}
+.Life li {
+    color: grey;
+}
+
+.image {
+    width: 80%;
+    margin: 2%;
+    border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px; /* Rounded border */
+    padding: 5px; /* Some padding */
+}
+.content {
+    /*  display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 4%; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1%;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3%;
+}
+
+@media screen and (max-width: 800px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+
+    .image {
+        width: 100%;
+    }
+}
