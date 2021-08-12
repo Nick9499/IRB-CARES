@@ -1,7 +1,7 @@
 import React from 'react'
 import styled, { css } from 'styled-components'
 import { Button } from '@material-ui/core'
-import { IoMdArrowRoundForward } from 'react-icons/io'
+
 import { IoArrowBack, IoArrowForward } from 'react-icons/io5'
 import { useState } from 'react'
 import { useRef } from 'react'
@@ -114,9 +114,9 @@ const HeroContent = styled.div`
     }
 `
 
-const Arrow = styled(IoMdArrowRoundForward)`
+/* const Arrow = styled(IoMdArrowRoundForward)`
     margin-left: 0.5rem;
-`
+` */
 
 const SliderButton = styled.div`
     position: absolute;

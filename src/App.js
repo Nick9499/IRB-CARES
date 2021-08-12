@@ -1,10 +1,4 @@
-import {
-    BrowserRouter,
-    Redirect,
-    Route,
-    Switch,
-    useHistory,
-} from 'react-router-dom'
+import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom'
 import './App.css'
 import { afterSchool } from './components/Hero/sliderData'
 

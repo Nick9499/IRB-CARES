@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 import { SidebarData } from '../sideBar/SidebarData'
 import logo from '../../Images/logo4.svg'
 import SideMenu from './SideMenu'
-import BackDrop from '../../components/BackDrop/BackDrop'
+
 const Nav = styled.div`
     background: #15171c;
     height: 60px;
